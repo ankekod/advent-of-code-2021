@@ -10,10 +10,10 @@ def check_depth(depths):
     for depth in depths[1:]:
         if int(depth) > int(previous_depth):
             increases += 1
-            print(depth + " (increased)")
+            #print(depth + " (increased)")
         else:
             decreases += 1
-            print(depth + " (decreased)")
+            #print(depth + " (decreased)")
         previous_depth = depth
 
     return increases, decreases
